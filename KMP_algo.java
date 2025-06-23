@@ -1,5 +1,6 @@
 import java.util.*;
 
+// To find all the index of occurrence of pat string in s string
 public class KMP_algo {
     static int[] lps(String s){
         int i=1;
