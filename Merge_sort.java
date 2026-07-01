@@ -1,6 +1,9 @@
 public class MergeSortTemplate {
 
-
+    public static void mergeSort(int[] arr) {
+        if (arr == null || arr.length <= 1) return;
+        mergeSort(arr, 0, arr.length - 1);
+    }
 
     private static void mergeSort(int[] arr, int left, int right) {
         if (left >= right) return;
